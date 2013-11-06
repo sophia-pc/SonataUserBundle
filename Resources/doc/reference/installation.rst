@@ -99,6 +99,7 @@ Then add these bundles in the config mapping definition (or enable `auto_mapping
                     mappings:
                         ApplicationSonataUserBundle: ~
                         SonataUserBundle: ~
+                        FOSUserBundle: ~ # use Friendsofsymfony/user-bundle
 
         dbal:
             types:
